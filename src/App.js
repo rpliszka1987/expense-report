@@ -6,13 +6,13 @@ function App() {
     {
       id: "01",
       expenseName: "Rent",
-      date: "March 1st 2022",
+      date: new Date(2023, 0, 2),
       amount: "1,250",
     },
     {
       id: "02",
       expenseName: "Car Payment",
-      date: "March 1st 2022",
+      date: new Date(2023, 0, 6),
       amount: "650",
     },
   ];
