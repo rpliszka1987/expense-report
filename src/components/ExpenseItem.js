@@ -1,6 +1,6 @@
 import "./ExpenseItem.css";
 
-function ExpenseItem() {
+function ExpenseItem(props) {
   return (
     <div className="expense-item">
       <div>
@@ -9,9 +9,9 @@ function ExpenseItem() {
         <div>year</div>
       </div>
       <div>
-        <h2>Expense Name</h2>
+        <h2>{props.name}</h2>
       </div>
-      <div>Expense Amount $</div>
+      <div>$ {props.amount}</div>
     </div>
   );
 }
