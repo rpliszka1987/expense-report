@@ -2,6 +2,12 @@ body {
     background: gray;
 }
 
+.homepage-header {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
 h1 {
-    color: red
+    color: #fff
 }
